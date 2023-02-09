@@ -52,11 +52,24 @@ body {
     justify-content: flex-end;
 }
 
+.speaker_view {
+    background-color: rgba(240, 237, 233, 0.5);
+    border-radius: 2px;
+}
+
 .speaker_view span{
-    display: flex;
     justify-content: flex-end;
     color: white;
+}
+
+.resize {
     background-color: rgba(2, 2, 2, 0.5);
+    color: white;
+    margin-right: 50px;
+    margin-left: 20px;
+    background-color: rgba(240, 237, 233, 0.5);
+    border-radius: 2px;
+
 }
 
 .speaker_view span i{
@@ -68,10 +81,6 @@ body {
 /* #endregion header */
 
 /* #region Main */
-
-
-
-
 
 .container{
     display: flex;
@@ -86,7 +95,6 @@ body {
 
 
 .container_images{
-    display: flex;
     flex-wrap: wrap;
     margin: 3px 3px;
     background-color: red;
@@ -116,23 +124,23 @@ body {
 /* #region Footer */
 
 .container_footer{
-    height: 190px;
+    position: fixed;
+    height: 100px;
     width: 100%;
     background-color: var(--db-footer);
-    margin-top: 65px;
+    margin-top: 40px;
 }
 
 .container_footer .buttons{
     display: flex;
-    height: 80px;
+    
     width: 100%;
     justify-content: space-between;
-    /* background-color: yellow; */
+    
 }
 
 
 .buttons_left{
-  
     height: 20px;
     padding-top: 10px;
     padding-left: 10px;
