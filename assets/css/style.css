@@ -16,12 +16,61 @@ body {
     background-color: var(--db-main);
 }
 
+/* #region Utilities */
+
+.m-5{
+    margin-right: 10px;
+}
+
+.m-30{
+    margin: 0 30px;
+}
+
+.m-20{
+    margin: 0 20px;
+}
+
+
+.text{
+    font-size: 10px;
+}
+
+.fa-angle-up {
+    font-size: 8px;
+}
+
+.green{
+    color: green;
+}
+
+
+/* #endregion Utilities */
+
+/* #region header */
+#app-header{
+    display: flex;
+    justify-content: flex-end;
+}
 
 .speaker_view span{
     display: flex;
     justify-content: flex-end;
     color: white;
+    background-color: rgba(2, 2, 2, 0.5);
 }
+
+.speaker_view span i{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: rgba(2, 2, 2,);
+}
+/* #endregion header */
+
+/* #region Main */
+
+
+
 
 
 .container{
@@ -56,6 +105,73 @@ body {
 
 .card-img span {
     position: absolute;
-    bottom: 4px;
-    left: 5px;
+    bottom: 0;
+    left:0;
+    color: white;
+    background-color: rgba(2, 2, 2, 0.5);
 }   
+
+/* #endregion Main */
+
+/* #region Footer */
+
+.container_footer{
+    height: 190px;
+    width: 100%;
+    background-color: var(--db-footer);
+    margin-top: 65px;
+}
+
+.container_footer .buttons{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: yellow; */
+}
+
+
+.buttons_left{
+  
+    height: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    
+}
+
+.buttons_center{
+    height: 20px;
+    padding-top: 10px;
+    color: white;
+    gap: 10px;
+}
+
+.text span{
+    padding-left: 15px;
+}
+
+.buttons_right{
+    display: flex;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    background-color: gray;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #endregion Footer */
