@@ -160,7 +160,6 @@ body {
 }
 
 .buttons_right{
-    display: flex;
     height: 40px;
     width: 100px;
     align-items: center;
