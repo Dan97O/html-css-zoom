@@ -85,9 +85,7 @@ body {
 .container{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;
     width: 90%;
-    height: 80%;
     margin: auto;
     justify-content: center;
 }
@@ -95,18 +93,12 @@ body {
 
 
 .container_images{
-    flex-wrap: wrap;
     margin: 3px 3px;
-    background-color: red;
-    
-
 }
 
 .card-img{
     position: relative;
     max-width: 100%;
-    height: 150px;
-    width: 250px;
 }
 
 
@@ -129,10 +121,10 @@ body {
 
 .container_footer{
     position: fixed;
-    height: 100px;
     width: 100%;
     background-color: var(--db-footer);
     margin-top: 40px;
+    padding-bottom: 90px;
 }
 
 .container_footer .buttons{
@@ -142,17 +134,14 @@ body {
 }
 
 .buttons_left{
-    height: 20px;
     padding-top: 10px;
     padding-left: 10px;
     color: white;
 }
 
 .buttons_center{
-    height: 20px;
     padding-top: 10px;
     color: white;
-    gap: 10px;
 }
 
 .text span{
@@ -160,7 +149,7 @@ body {
 }
 
 .buttons_right{
-    height: 40px;
+    display: flex;
     width: 100px;
     align-items: center;
     background-color: gray;
