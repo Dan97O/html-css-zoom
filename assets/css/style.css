@@ -88,6 +88,7 @@ body {
     width: 90%;
     margin: auto;
     justify-content: center;
+    padding-top: 20px;
 }
 
 
@@ -124,7 +125,9 @@ body {
     width: 100%;
     background-color: var(--db-footer);
     margin-top: 40px;
-    padding-bottom: 90px;
+    padding-bottom: 40px;
+    bottom: 0;
+    left: 0;
 }
 
 .container_footer .buttons{
@@ -159,8 +162,7 @@ body {
 
 /* #endregion Footer */
 
-
-
-
-
+.pos-relative{
+    position: relative;
+}
 
